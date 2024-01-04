@@ -15,7 +15,7 @@ class MemberTest {
     @Test
     void test_fail() {
         Member member = new Member("김철수", 15);
-        assertThat(member).isNull();
+        assertThat(member).isNotNull();
     }
 
 }
